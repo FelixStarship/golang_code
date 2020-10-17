@@ -5,8 +5,8 @@ import "fmt"
 var Age int
 var Name string
 
-func init()  {
+func init() {
 	fmt.Println("utils包的 init()....")
-	Age=20
-	Name="tom~"
+	Age = 20
+	Name = "tom~"
 }

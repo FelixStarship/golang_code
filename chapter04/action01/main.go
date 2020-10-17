@@ -10,22 +10,20 @@ type Person struct {
 }
 
 type Dog struct {
-
 }
 
-func (p * Person)test()  {
-	(*p).Name="jack"
+func (p *Person) test() {
+	(*p).Name = "jack"
 	fmt.Println(*p)
 }
 
 func main() {
-   var p Person
-   p.Name="tom~"
-   (&p).test()
-   fmt.Println(p)
+	var p Person
+	p.Name = "tom~"
+	(&p).test()
+	fmt.Println(p)
 
-   stu:=model.NewStudent("tom~",88.9)
-   fmt.Println(*stu)
-
+	stu := model.NewStudent("tom~", 88.9)
+	fmt.Println(*stu)
 
 }

@@ -1,13 +1,13 @@
 package model
 
 type student struct {
-	Name string
+	Name  string
 	Score float64
 }
 
-func NewStudent(n string,s float64) *student {
+func NewStudent(n string, s float64) *student {
 	return &student{
-		Name: n,
+		Name:  n,
 		Score: s,
 	}
 }
