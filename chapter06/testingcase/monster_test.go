@@ -18,7 +18,7 @@ func TestStore(t *testing.T) {
 }
 
 func TestReStore(t *testing.T) {
-	monster := &Monster{}
+	monster := Monster{}
 	res := monster.ReStore()
 	if res != nil {
 		t.Fatalf("monster.ReStore() err=%v", res)
@@ -26,5 +26,5 @@ func TestReStore(t *testing.T) {
 	if monster.Name != "红孩儿" {
 		t.Fatalf("monster.ReStore() err=%v", monster.Name)
 	}
-	t.Logf("monster.ReStore()测试通过 Monster=%v", *monster)
+	t.Logf("monster.ReStore()测试通过 Monster=%v", monster)
 }
