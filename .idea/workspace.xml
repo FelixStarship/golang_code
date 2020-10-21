@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b035f109-b392-4bae-830e-68cf51458a64" name="默认的" comment="go code">
-      <change afterPath="$PROJECT_DIR$/chapter07/goroutine03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter07/channel06/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter07/channel07/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter07/channel08/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter07/channel09/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +77,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +85,7 @@
       <recent name="D:\workspace\src\go_code" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang_code/chapter07/goroutine03">
+  <component name="RunManager" selected="Go Build.go build golang_code/chapter07/channel09">
     <configuration name="go build golang_code/chapter07/channel03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_code" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,6 +101,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/chapter07/channel04/main.go" />
       <package value="golang_code/chapter07/channel04" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golang_code/chapter07/channel09" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_code" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/chapter07/channel09/main.go" />
+      <package value="golang_code/chapter07/channel09" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -119,22 +131,13 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang_code" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chapter07/goroutine01/main.go" />
-      <package value="golang_code" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang_code/chapter07/channel09" />
         <item itemvalue="Go Build.go build golang_code/chapter07/goroutine03" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build golang_code/chapter07/channel04" />
         <item itemvalue="Go Build.go build golang_code/chapter07/channel03" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -165,26 +168,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="219" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603116474727" />
+    <state x="288" y="139" key="EditFileWatcherDialog" timestamp="1603204194792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="288" y="139" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1603204194792" />
     <state x="496" y="109" key="FileChooserDialogImpl" timestamp="1603117220382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603117220382" />
-    <state width="1483" height="24" key="GridCell.Tab.0.bottom" timestamp="1603181517375">
+    <state width="1483" height="219" key="GridCell.Tab.0.bottom" timestamp="1603247609479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="24" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603181517375" />
-    <state width="1483" height="24" key="GridCell.Tab.0.center" timestamp="1603181517375">
+    <state width="1483" height="219" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603247609479" />
+    <state width="1483" height="219" key="GridCell.Tab.0.center" timestamp="1603247609479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="24" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603181517375" />
-    <state width="1483" height="24" key="GridCell.Tab.0.left" timestamp="1603181517375">
+    <state width="1483" height="219" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603247609479" />
+    <state width="1483" height="219" key="GridCell.Tab.0.left" timestamp="1603247609479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="24" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603181517375" />
-    <state width="1483" height="24" key="GridCell.Tab.0.right" timestamp="1603181517375">
+    <state width="1483" height="219" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603247609479" />
+    <state width="1483" height="219" key="GridCell.Tab.0.right" timestamp="1603247609479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="24" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603181517375" />
+    <state width="1483" height="219" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603247609479" />
     <state width="1483" height="131" key="GridCell.Tab.1.bottom" timestamp="1602948807966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,14 +208,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1483" height="131" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602948807966" />
-    <state x="75" y="0" key="SettingsEditor" timestamp="1603158246426">
+    <state x="75" y="0" key="SettingsEditor" timestamp="1603204197928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="75" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603158246426" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1603117230182">
+    <state x="75" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603204197928" />
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1603182080847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603117230182" />
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603182080847" />
     <state x="284" y="42" width="840" height="1034" key="search.everywhere.popup" timestamp="1603117326657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
